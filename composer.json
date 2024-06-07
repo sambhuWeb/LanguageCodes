@@ -1,0 +1,27 @@
+{
+    "name": "elt/language-codes",
+    "description": "Fetch languages codes for a given language. Hindi will return hi. Bhojpuri will return bho",
+    "type": "composer",
+    "license": "MIT",
+    "scripts" : {
+        "test" : [
+            "vendor/bin/phpunit tests"
+        ]
+    },
+    "autoload": {
+        "psr-4": {
+            "Elt\\LanguageCodes\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Sambhu Singh",
+            "email": "sambhu.raj.singh@gmail.com"
+        }
+    ],
+    "require-dev": {
+        "roave/security-advisories": "dev-latest",
+        "phpunit/phpunit": "^7"
+    },
+    "require": {}
+}
